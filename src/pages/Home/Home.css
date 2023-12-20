@@ -70,6 +70,44 @@
     margin-bottom: 10px;
 }
 
+.FeaturedContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Featured{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-bottom: 100px;
+}
+
+.Featured-Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Featured-Content h2{
+    font-size: 20px;
+}
+
+.Featured-Content p{
+    font-size: 12px;
+    text-align: center;
+}
+
+.Featured img{
+    width: 130px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 @media all and (min-width: 320px){
     .Hero-Overlay{
         left: -40px;
@@ -85,6 +123,25 @@
 
     .Hero-Buttons button{
         font-size: 10px;
+    }
+
+    .Featured{
+        width: 300px
+    }
+
+    .Featured-Content h2{
+        font-size: 24px;
+    }
+    
+    .Featured-Content p{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .Featured img{
+        width: 150px;
+        height: auto;
+        margin-bottom: 20px;
     }
 }
 
@@ -126,6 +183,23 @@
     .Hero-Buttons button{
         font-size: 10px;
     }
+
+    .Featured{
+        width: 400px
+    }
+
+    .Featured-Content h2{
+        font-size: 30px;
+    }
+    
+    .Featured-Content p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .Featured img{
+        width: 200px;
+    }
 }
 
 @media all and (min-width: 650px){
@@ -161,6 +235,24 @@
     .Hero-Buttons button{
         font-size: 18px;
         padding: 5px 30px;
+    }
+
+    .Featured{
+        width: 550px;
+        margin-bottom: 150px;
+    }
+
+    .Featured-Content h2{
+        font-size: 34px;
+    }
+    
+    .Featured-Content p{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .Featured img{
+        width: 200px;
     }
 }
 
@@ -199,6 +291,48 @@
 }
 
 @media all and (min-width: 1024px){
+    .Featured{
+        width: 100%;
+        padding: 0px 10%;
+        justify-content: space-around;
+    }
+
+    .Featured:nth-child(odd){
+        flex-direction: row;
+    }
+
+    .Featured:nth-child(even){
+        flex-direction: row-reverse;
+    }
+
+    .Featured-Img-Container{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Featured-Img-Container img{
+        width: 300px;
+    }
+
+    .Featured-Content{
+        flex: 1;
+    }
+
+    .Featured-Content h2{
+        font-size: 40px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .Featured-Content p{
+        font-size: 28px;
+        width: 100%;
+        text-align: left;
+    }
+
     .Hero{
         height: 550px;
         background-image: url('../../assets/Images/Menu/_Thumbnail/pexels-eneida-nieves-905847.jpg');
@@ -274,6 +408,16 @@
     .Hero-Buttons{
         margin-left: 40px;
     }
+
+    .Featured-Header{
+        font-size: 70px;
+        margin-bottom: 150px;
+    }
+
+    .Featured{
+        padding: 0px 15%;
+        margin-bottom: 250px;
+    }
 }
 
 @media all and (min-width: 1450px){
@@ -315,5 +459,24 @@
     .Hero-Buttons{
         margin-top: 20px;
         margin-left: 150px;
+    }
+    .Featured-Img-Container img{
+        width: 350px;
+    }
+
+    .Featured-Content{
+        flex: 2;
+    }
+
+    .Featured-Content h2{
+        font-size: 50px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .Featured-Content p{
+        font-size: 32px;
+        width: 100%;
+        text-align: left;
     }
 }
