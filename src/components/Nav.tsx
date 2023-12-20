@@ -68,16 +68,16 @@ function Navigation() {
                     <Offcanvas.Body>
                         <Nav className="justify-content-center flex-grow-1 pe-3 navlinks">
                             <div className="desktop-links">
-                                <Nav.Link id="active" className="link" as={Link} to="/JoshDollars/" >Home</Nav.Link>
-                                <Nav.Link className="link" as={Link} to="/JoshDollars/Introduction">Menu</Nav.Link>
-                                <Nav.Link className="link" as={Link} to="/JoshDollars/Resources">Contact Us</Nav.Link>
-                                <Nav.Link className="link" as={Link} to="/JoshDollars/Participate">About</Nav.Link>
+                                <Nav.Link id="active" className="link" as={Link} to="/Biggies-Pizza/" >Home</Nav.Link>
+                                <Nav.Link className="link" as={Link} to="/Biggies-Pizza/Menu">Menu</Nav.Link>
+                                <Nav.Link className="link" as={Link} to="/Biggies-Pizza/Contact">Contact Us</Nav.Link>
+                                <Nav.Link className="link" as={Link} to="/Biggies-Pizza/About">About</Nav.Link>
                             </div>
                             <div className="mobile-links">
-                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/JoshDollars/" >Home</Nav.Link>
-                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/JoshDollars/Introduction">Menu</Nav.Link>
-                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/JoshDollars/Resources">Contact Us</Nav.Link>
-                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/JoshDollars/Participate">About</Nav.Link>
+                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/Biggies-Pizza/" >Home</Nav.Link>
+                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/Biggies-Pizza/Menu">Menu</Nav.Link>
+                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/Biggies-Pizza/Contact">Contact Us</Nav.Link>
+                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/Biggies-Pizza/About">About</Nav.Link>
                             </div>
                             {/* onClick={(e) => changeActive(e)} */}
                         </Nav>
