@@ -48,6 +48,25 @@
     z-index: 2;
 }
 
+.Header-Overlay{
+    z-index: -10;
+}
+
+.Header-Title{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.Header-Title h1{
+    color: white;
+    font-family: 'Oregano', cursive;
+    font-size: 28px;
+}
+
 #active{
     font-weight: bold;
     text-decoration: underline;
@@ -122,6 +141,12 @@
         font-size: 40px;    
     }
 
+    .Header-Title h1{
+        color: white;
+        font-family: 'Oregano', cursive;
+        font-size: 32px;
+    }
+
     #navlogo{
         width: 150px;
         height: 150px;
@@ -148,6 +173,10 @@
 }
 
 @media all and (min-width: 430px){
+    .Header-Title h1{
+        font-size: 45px;
+    }
+
     #navlogo h1{
         font-size: 32px;
     }
@@ -225,15 +254,27 @@
       .Footer p:last-of-type{
         font-size: 24px;
       }
+
+      .Header-Title h1{
+        font-size: 55px;
+    }
 }
 
 @media all and (min-width: 850px){
     .link{
         margin-right: 3.5%;
     }
+
+    .Header-Title h1{
+        font-size: 60px;
+    }
 }
 
 @media all and (min-width: 1000px){
+    .Header-Title h1{
+        font-size: 65px;
+    }
+
     #navlogo-container{
         right: 20%;
     }
@@ -261,6 +302,10 @@
 }
 
 @media all and (min-width: 1250px){
+    .Header-Title h1{
+        font-size: 75px;
+    }
+
     .link{
         font-size: 20px;
         margin-right: 60px;
@@ -268,6 +313,10 @@
 }
 
 @media all and (min-width: 1400px){
+    .Header-Title h1{
+        font-size: 90px;
+    }
+
     .link{
         margin-right: 90px;
     }
@@ -276,5 +325,9 @@
 @media all and (min-width: 1500px){
     .desktop-links{
         margin-left: 40px;
+    }
+
+    .Header-Title h1{
+        font-size: 120px;
     }
 }

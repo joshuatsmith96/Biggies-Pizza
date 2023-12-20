@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 
 //Pages
 import Home from './pages/Home/Home'
+import Menu from './pages/Menu/Menu'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/Biggies-Pizza/" element={ <Home /> } />
+        <Route path="/Biggies-Pizza/Menu" element={ <Menu /> } />
       </Routes>
       <Footer />
     </div>
