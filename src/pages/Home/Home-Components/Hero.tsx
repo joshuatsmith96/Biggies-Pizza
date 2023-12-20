@@ -1,7 +1,9 @@
-function Home(){
+function Hero(){
     return(
-        <div className="Home"></div>
+        <div className="Hero">
+            <div className="Hero-Overlay"></div>
+        </div>
     )
 }
 
-export default Home
+export default Hero

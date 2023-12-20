@@ -1,0 +1,99 @@
+.Hero{
+    position: relative;
+    height: 230px;
+    background-image: url('../../assets/Images/Menu/_Thumbnail/pexels-eneida-nieves-905847_SMALL.jpg');
+    background-position:center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.Hero-Overlay{
+    position: absolute;
+    width: 300px;
+    height: 570px;
+    background-color: #373737;
+    opacity: 75%;
+    transform: rotate(-45deg);
+    left: -70px
+}
+
+@media all and (min-width: 320px){
+    .Hero-Overlay{
+        left: -40px;
+    }
+}
+
+@media all and (min-width: 430px){
+    .Hero-Overlay{
+        width: 450px;
+        height: 745px;
+        left: -180px;
+        top: -100px
+    }
+
+    .Hero{
+        height: 280px;
+        background-image: url('../../assets/Images/Menu/_Thumbnail/pexels-eneida-nieves-905847_MEDIUM.jpg');
+    }
+}
+
+@media all and (min-width: 650px){
+    .Hero{
+        height: 400px;
+    }
+
+    .Hero-Overlay{
+        width: 450px;
+        height: 745px;
+        left: -90px;
+        top: 0px;
+    }
+}
+
+@media all and (min-width: 820px){
+    .Hero{
+        height:450px;
+    }
+
+    .Hero-Overlay{
+        top: -100px;
+        left: -50px;
+        height: 900px;
+    }
+}
+
+@media all and (min-width: 1024px){
+    .Hero{
+        height: 550px;
+        background-image: url('../../assets/Images/Menu/_Thumbnail/pexels-eneida-nieves-905847.jpg');
+    }
+
+    .Hero-Overlay{
+        width: 700px;
+        height: 1200px;
+        left: -160px
+    }
+}
+
+@media all and (min-width: 1300px){
+    .Hero-Overlay{
+        left: -30px
+    }
+
+    .Hero{
+        height: 600px;
+    }
+}
+
+@media all and (min-width: 1450px){
+    .Hero{
+        height: 750px;
+    }
+
+    .Hero-Overlay{
+        top: -150px;
+        height: 1800px;
+        width: 1000px;
+        left: 0px;
+    }
+}
