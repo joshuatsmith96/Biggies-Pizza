@@ -43,7 +43,8 @@ function Navigation() {
 
 
     return (
-        <Navbar key={"md"} expand={"md"} className="Navigation">
+        <div className="NavContainer">
+                    <Navbar key={"md"} expand={"md"} className="Navigation">
             <Container fluid>
             <Navbar.Toggle onClick={toggleMenu} aria-controls={`offcanvasNavbar-expand-${"md"}`} />
                 <Navbar.Brand id="navlogo-container">
@@ -85,6 +86,7 @@ function Navigation() {
                 </Navbar.Offcanvas>
             </Container>
         </Navbar>
+        </div>
     )
 }
 

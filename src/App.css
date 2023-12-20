@@ -45,7 +45,6 @@
   }
 
 .Navigation{
-    position: relative;
     z-index: 2;
 }
 
@@ -271,5 +270,11 @@
 @media all and (min-width: 1400px){
     .link{
         margin-right: 90px;
+    }
+}
+
+@media all and (min-width: 1500px){
+    .desktop-links{
+        margin-left: 40px;
     }
 }

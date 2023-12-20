@@ -64,6 +64,11 @@
     color: white;
     border-radius: 3px;
     margin: 10px;
+    transition: .2s;
+}
+
+.Hero-Buttons button:hover{
+    background-color: #157024;
 }
 
 .Hero-Buttons{
