@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oregano&display=swap');
+/* font-family: 'Oregano', cursive; */
+/* font-family: 'Josefin Sans', sans-serif; */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Navigation{
+    position: relative;
+}
+
+#active{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #21A436;
+    text-decoration-thickness: 3px;
+}
+
+.black-background{
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(210, 195, 224);
+}
+
+.link{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 300;
+}
+
+.desktop-links{
+    display: none;
+}
+
+#navlogo-container{
+    top: -40%;
+    right: 10%;
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#navlogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-radius: 100%;
+    background-color: white;
+    width: 120px;
+    padding-bottom: 10px;
+    height: 120px;
+}
+
+#navlogo h1{
+    font-family: 'Oregano', cursive;
+    color: #21A436;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+#navlogo p{
+    color: #CF0000;
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+@media all and (min-width: 320px) {
+    #navlogo{
+        width: 150px;
+        height: 150px;
+    }
+
+    #navlogo-container{
+        top: -70%;
+    }
+
+    #navlogo h1{
+        font-size: 32px;
+    }
+
+    #navlogo{
+        font-size: 15px;
+    }
+}
+
+@media all and (min-width: 430px){
+    #navlogo h1{
+        font-size: 32px;
+    }
+
+    #navlogo{
+        font-size: 15px;
+    }
+
+    #navlogo-container{
+        right: 18%;
+    }
+}
+
+@media all and (min-width: 768px){
+    .mobile-links{
+        display: none;
+    }
+
+    .desktop-links{
+        display: flex;
+        flex: 1;
+
+    }
+
+    #navlogo h1{
+        font-size: 48px;
+    }
+
+    #navlogo p{
+        font-size: 15px;
+    }
+
+    #navlogo-container{
+        top: -50%
+    }
+
+    .link{
+        margin-right: 2%;
+        font-size: 16px;
+    }
+}
+
+@media all and (min-width: 850px){
+    .link{
+        margin-right: 3.5%;
+    }
+}
+
+@media all and (min-width: 1000px){
+    #navlogo-container{
+        right: 20%;
+    }
+
+    #navlogo h1{
+        font-size: 60px;
+    }
+
+    #navlogo p{
+        font-size: 20px;
+    }
+
+    #navlogo{
+        width: 250px;
+        height: 250px;
+    }
+
+    #navlogo-container{
+        top: -170%
+    }
+
+    .link{
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width: 1250){
+    #navlogo-container{
+        right: 50%;
+    }
+}
+
