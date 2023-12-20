@@ -6,7 +6,6 @@ import Featured from './Home-Components/Featured'
 
 //Images
 import Pinneapple from '../../assets/Images/Menu/Pizzas/Pinneapple Pizza.png'
-import Pizza2 from '../../assets/Images/Menu/Pizzas/Pizza.png'
 import Chickenbacon from '../../assets/Images/Menu/Pizzas/chicken bacon ranch.png'
 import Spicy from '../../assets/Images/Menu/Pizzas/spicy pizza.png'
 
