@@ -169,9 +169,15 @@
     }
 }
 
-@media all and (min-width: 1250){
-    #navlogo-container{
-        right: 50%;
+@media all and (min-width: 1250px){
+    .link{
+        font-size: 20px;
+        margin-right: 60px;
     }
 }
 
+@media all and (min-width: 1400px){
+    .link{
+        margin-right: 90px;
+    }
+}
