@@ -5,6 +5,7 @@
     background-position:center;
     background-size: cover;
     overflow: hidden;
+    z-index: 1;
 }
 
 .Hero-Overlay{
@@ -14,12 +15,76 @@
     background-color: #373737;
     opacity: 75%;
     transform: rotate(-45deg);
-    left: -70px
+    left: -70px;
+    top: 0;
+}
+
+.Hero-Text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: left;
+    z-index: 1;
+    width: 80%;
+    height: 100%;
+    padding-left: 05px;
+}
+
+.Hero-Text h1{
+    color: #21A436;
+    font-size: 28px;
+    font-family: 'Oregano', cursive;
+    margin-bottom: 35px;
+}
+
+.Hero-Text p{
+    color: white;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 50px;
+    margin-bottom: 6px;
+}
+
+.Hero-Text p:first-of-type{
+    font-family: 'Oranienbaum', serif;
+}
+
+.Hero-Text p:last-of-type{
+    font-family: 'Oooh Baby', cursive;
+    padding-left: 70px
+}
+
+.Hero-Buttons button{
+    font-size: 8px;
+    padding: 5px 15px;
+    border: none;
+    background-color: #21A436;
+    color: white;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.Hero-Buttons{
+    margin-bottom: 10px;
 }
 
 @media all and (min-width: 320px){
     .Hero-Overlay{
         left: -40px;
+    }
+
+    .Hero-Text h1{
+        margin-bottom: 45px;
+    }
+
+    .Hero-Text p{
+        font-size: 18px;
+    }
+
+    .Hero-Buttons button{
+        font-size: 10px;
     }
 }
 
@@ -35,6 +100,32 @@
         height: 280px;
         background-image: url('../../assets/Images/Menu/_Thumbnail/pexels-eneida-nieves-905847_MEDIUM.jpg');
     }
+
+    .Hero-Buttons{
+        margin-bottom: 25px;
+    }
+
+    .Hero-Buttons button{
+        padding: 5px 25px;
+    }
+
+    .Hero-Text h1{
+        font-size: 32px;
+        margin-bottom: 75px;
+        margin-left: 10px;
+    }
+
+    .Hero-Text p{
+        font-size: 20px;
+    }
+
+    .Hero-Text p:last-of-type{
+        margin-bottom: 20px;
+    }
+
+    .Hero-Buttons button{
+        font-size: 10px;
+    }
 }
 
 @media all and (min-width: 650px){
@@ -48,6 +139,29 @@
         left: -90px;
         top: 0px;
     }
+
+    .Hero-Buttons{
+        margin-bottom: 25px;
+    }
+
+    .Hero-Text h1{
+        font-size: 45px;
+        margin-bottom: 100px;
+    }
+
+    .Hero-Text p{
+        font-size: 26px;
+        margin-left: 50px;
+    }
+
+    .Hero-Text p:last-of-type{
+        margin-bottom: 40px;
+    }
+
+    .Hero-Buttons button{
+        font-size: 18px;
+        padding: 5px 30px;
+    }
 }
 
 @media all and (min-width: 820px){
@@ -59,6 +173,28 @@
         top: -100px;
         left: -50px;
         height: 900px;
+    }
+
+    .Hero-Buttons{
+        margin-bottom: 45px;
+    }
+
+    .Hero-Text h1{
+        font-size: 60px;
+        margin-bottom: 110px;
+    }
+
+    .Hero-Text p{
+        font-size: 30px;
+    }
+
+    .Hero-Text p:last-of-type{
+        margin-bottom: 40px;
+    }
+
+    .Hero-Buttons button{
+        font-size: 18px;
+        padding: 5px 30px;
     }
 }
 
@@ -73,6 +209,33 @@
         height: 1200px;
         left: -160px
     }
+
+    .Hero-Buttons{
+        margin-bottom: 45px;
+    }
+
+    .Hero-Text h1{
+        font-size: 85px;
+        margin-bottom: 140px;
+    }
+
+    .Hero-Text p{
+        font-size: 40px;
+        margin-left: 110px;
+    }
+
+    .Hero-Text p:last-of-type{
+        margin-bottom: 40px;
+    }
+
+    .Hero-Buttons button{
+        font-size: 22px;
+        padding: 10px 45px;
+    }
+
+    .Hero-Buttons{
+        margin-left: 40px;
+    }
 }
 
 @media all and (min-width: 1300px){
@@ -82,6 +245,34 @@
 
     .Hero{
         height: 600px;
+    }
+    
+    .Hero-Buttons{
+        margin-bottom: 50px;
+    }
+
+    .Hero-Text h1{
+        font-size: 110px;
+        margin-bottom: 140px;
+        margin-left: 30px;
+    }
+
+    .Hero-Text p{
+        font-size: 45px;
+        margin-left: 110px;
+    }
+
+    .Hero-Text p:last-of-type{
+        margin-bottom: 40px;
+    }
+
+    .Hero-Buttons button{
+        font-size: 22px;
+        padding: 10px 45px;
+    }
+
+    .Hero-Buttons{
+        margin-left: 40px;
     }
 }
 
@@ -95,5 +286,34 @@
         height: 1800px;
         width: 1000px;
         left: 0px;
+    }
+
+    .Hero-Buttons{
+        margin-bottom: 50px;
+    }
+
+    .Hero-Text h1{
+        font-size: 120px;
+        margin-bottom: 210px;
+        margin-left: 110px;
+    }
+
+    .Hero-Text p{
+        font-size: 55px;
+        margin-left: 230px;
+    }
+
+    .Hero-Text p:last-of-type{
+        padding-left: 110px;
+    }
+
+    .Hero-Buttons button{
+        font-size: 28px;
+        padding: 10px 65px;
+    }
+
+    .Hero-Buttons{
+        margin-top: 20px;
+        margin-left: 150px;
     }
 }
