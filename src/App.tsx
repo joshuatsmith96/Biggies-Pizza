@@ -1,6 +1,7 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import Navigation from './components/Nav'
+import Footer from './components/Footer'
 
 //Pages
 import Home from './pages/Home/Home'
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/Biggies-Pizza/" element={ <Home /> } />
       </Routes>
+      <Footer />
     </div>
   )
 }
