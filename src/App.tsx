@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home/Home'
 import Menu from './pages/Menu/Menu'
 import ItemPage from './pages/ItemPage/ItemPage'
+import Contact from './pages/ContactUs/Contact'
 
 
 function App() {
