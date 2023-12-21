@@ -9,7 +9,7 @@ import PizzaHeader from '../../assets/Images/Menu/_Thumbnail/PizzaHeaderImage.jp
 import Pizza from '../../assets/Images/Menu/_Category Images/Pizza.png'
 import Burger from '../../assets/Images/Menu/_Category Images/burger.png'
 import Sandwiches from '../../assets/Images/Menu/_Category Images/sandwich.png'
-import Desserts from '../../assets/Images/Menu/_Category Images/dessert.png'
+// import Desserts from '../../assets/Images/Menu/_Category Images/dessert.png'
 
 //-------------------------- ITEM DATA IMAGES ---------------------------- //
 //Header Images

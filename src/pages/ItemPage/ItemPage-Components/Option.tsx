@@ -1,5 +1,3 @@
-import pizzatest from '../../../assets/Images/Menu/Pizzas/Pinneapple Pizza.png'
-
 interface Props{
     Name: string,
     Price: string,
