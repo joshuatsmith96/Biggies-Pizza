@@ -8,6 +8,7 @@ import Home from './pages/Home/Home'
 import Menu from './pages/Menu/Menu'
 import ItemPage from './pages/ItemPage/ItemPage'
 import Contact from './pages/ContactUs/Contact'
+import About from './pages/AboutUs/About'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/Biggies-Pizza/Menu/Sandwiches" element={ <ItemPage /> } />
         <Route path="/Biggies-Pizza/Menu/Burgers" element={ <ItemPage /> } />
         <Route path="/Biggies-Pizza/Contact" element={ <Contact /> } />
+        <Route path="/Biggies-Pizza/About" element={ <About /> } />
       </Routes>
       <Footer />
     </div>
