@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 function Hero(){
     return(
         <div className="Hero">
@@ -6,8 +8,8 @@ function Hero(){
                 <p>Great Pizza</p>
                 <p>Good Vibes</p>
                 <div className="Hero-Buttons">
-                    <button>View Menu</button>
-                    <button>Book A Table</button>
+                    <Link to={"/Biggies-Pizza/Menu"} className="heroButton">View Menu</Link>
+                    <Link to={"/Biggies-Pizza"}className="heroButton">Book A Table</Link>
                 </div>
             </div>
             <div className="Hero-Overlay"></div>
