@@ -36,6 +36,12 @@
     color: #21A436;
     border-width: thin;
     width: 120px;
+    transition: .4s;
+}
+
+.menulink:hover{
+    color: white;
+    background-color: #21A436;
 }
 
 
@@ -83,7 +89,6 @@
     .Menu img{
         width: 220px;
         height: 220px;
-        height: auto;
         margin-bottom: 30px;
     }
 
@@ -97,7 +102,6 @@
     .Menu img{
         width: 300px;
         height: 300px;
-        height: auto;
         margin-bottom: 30px;
     }
 

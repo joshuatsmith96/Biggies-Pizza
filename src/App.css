@@ -65,6 +65,7 @@
     color: white;
     font-family: 'Oregano', cursive;
     font-size: 28px;
+    margin-bottom: 10px;
 }
 
 #active{
@@ -136,6 +137,24 @@
     margin-bottom: 60px;
 }
 
+#back-to-menu{
+    border: none;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: #21A436;
+    transition: .4s;
+    text-decoration: none;
+}
+
+#back-to-menu:hover{
+    background-color: #21A436;
+    color: white;
+}
+
 @media all and (min-width: 320px) {
     .Featured-Header{
         font-size: 40px;    
@@ -173,8 +192,14 @@
 }
 
 @media all and (min-width: 430px){
+    #back-to-menu{
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
     .Header-Title h1{
         font-size: 45px;
+        margin-bottom: 15px;
     }
 
     #navlogo h1{
@@ -207,6 +232,11 @@
 }
 
 @media all and (min-width: 768px){
+    #back-to-menu{
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+
     .Featured-Header{
         font-size: 50px;    
     }
@@ -261,6 +291,11 @@
 }
 
 @media all and (min-width: 850px){
+    #back-to-menu{
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+
     .link{
         margin-right: 3.5%;
     }
@@ -268,9 +303,18 @@
     .Header-Title h1{
         font-size: 60px;
     }
+    .Header-Title h1{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
 }
 
 @media all and (min-width: 1000px){
+    #back-to-menu{
+        font-size: 22px;
+        padding: 10px 50px;
+    }
+
     .Header-Title h1{
         font-size: 65px;
     }
@@ -320,6 +364,11 @@
     .link{
         margin-right: 90px;
     }
+
+    #back-to-menu{
+        font-size: 26px;
+        padding: 10px 70px;
+    }
 }
 
 @media all and (min-width: 1500px){
@@ -329,5 +378,6 @@
 
     .Header-Title h1{
         font-size: 120px;
+        margin-bottom: 60px;
     }
 }

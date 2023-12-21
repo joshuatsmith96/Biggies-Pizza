@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 //Pages
 import Home from './pages/Home/Home'
 import Menu from './pages/Menu/Menu'
+import ItemPage from './pages/ItemPage/ItemPage'
 
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
       <Routes>
         <Route path="/Biggies-Pizza/" element={ <Home /> } />
         <Route path="/Biggies-Pizza/Menu" element={ <Menu /> } />
+        <Route path="/Biggies-Pizza/Menu/Pizza" element={ <ItemPage /> } />
+        <Route path="/Biggies-Pizza/Menu/Sandwiches" element={ <ItemPage /> } />
+        <Route path="/Biggies-Pizza/Menu/Burgers" element={ <ItemPage /> } />
       </Routes>
       <Footer />
     </div>
