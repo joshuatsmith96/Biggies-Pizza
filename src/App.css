@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oooh+Baby&family=Oranienbaum&family=Oregano&display=swap');
-/* font-family: 'Oregano', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Oooh+Baby&family=Oranienbaum&family=Oregano&display=swap');/* font-family: 'Oregano', cursive; */
 /* font-family: 'Oranienbaum', serif; */
 /* font-family: 'Oooh Baby', cursive; */
 /* font-family: 'Josefin Sans', sans-serif; */
@@ -7,6 +6,10 @@
 *{
     padding: 0px;
     margin: 0px;
+}
+
+.Bold{
+    font-weight: bold;
 }
 
 .Footer{

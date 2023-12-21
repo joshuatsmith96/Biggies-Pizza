@@ -21,6 +21,7 @@ function App() {
         <Route path="/Biggies-Pizza/Menu/Pizza" element={ <ItemPage /> } />
         <Route path="/Biggies-Pizza/Menu/Sandwiches" element={ <ItemPage /> } />
         <Route path="/Biggies-Pizza/Menu/Burgers" element={ <ItemPage /> } />
+        <Route path="/Biggies-Pizza/Contact" element={ <Contact /> } />
       </Routes>
       <Footer />
     </div>
