@@ -95,9 +95,9 @@
 }
 
 #navlogo-container{
-    top: -40%;
-    right: 10%;
-    width: 50%;
+    top: -20px;
+    left: 0px;
+    width: 100%;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -264,12 +264,12 @@
     }
 
     #navlogo-container{
-        top: -50%
+        top: -70%
     }
 
     .link{
         margin-right: 2%;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .footer-info{
@@ -328,20 +328,20 @@
     }
 
     #navlogo h1{
-        font-size: 60px;
+        font-size: 50px;
     }
 
     #navlogo p{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     #navlogo{
-        width: 250px;
-        height: 250px;
+        width: 180px;
+        height: 180px;
     }
 
     #navlogo-container{
-        top: -170%
+        top: -80%
     }
 
     .link{
@@ -357,6 +357,23 @@
     .link{
         font-size: 20px;
         margin-right: 60px;
+    }
+
+    #navlogo h1{
+        font-size: 60px;
+    }
+
+    #navlogo p{
+        font-size: 17px;
+    }
+
+    #navlogo{
+        width: 200px;
+        height: 200px;
+    }
+
+    #navlogo-container{
+        top: -100%
     }
 }
 
@@ -383,5 +400,24 @@
     .Header-Title h1{
         font-size: 120px;
         margin-bottom: 60px;
+    }
+}
+
+@media all and (min-width: 1600px){
+    #navlogo h1{
+        font-size: 70px;
+    }
+
+    #navlogo p{
+        font-size: 20px;
+    }
+
+    #navlogo{
+        width: 220px;
+        height: 220px;
+    }
+
+    #navlogo-container{
+        top: -120%
     }
 }
