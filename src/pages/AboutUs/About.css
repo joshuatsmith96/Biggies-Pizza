@@ -1,17 +1,77 @@
 .About-Header{
-    background-image: url("../../assets/Images/About\ Header.jpg");
+    position: relative;
+    background-image: url('../../assets/Images/AboutHeader.jpg');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 36px;
+
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(51, 51, 51, 0.432);
+    z-index: 1;
+}
+
+.About-Header h1{
+    z-index: 2;
     margin-top: 20px;
+    font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
+}
+
+.About-Header{
     color: white;
-    width: 100%;
-    height: 400px;
-    border: solid;
+}
+
+@media all and (min-width: 330px){
+    .About-Header h1{
+        margin-top: 40px;
+    }
+}
+
+@media all and (min-width: 430px) {
+    .About-Header{
+        height: 200px;
+    }
+
+    .About-Header h1{
+        font-size: 48px;
+    }
+}
+
+@media all and (min-width: 550px){
+    .About-Header{
+        height: 300px;
+    }
+}
+
+@media all and (min-width: 1000px){
+    .About-Header{
+        height: 400px;
+    }
+
+    .About-Header h1{
+        font-size: 90px;
+    }
+}
+
+@media all and (min-width: 1000px){
+    .About-Header{
+        height: 550px;
+    }
+
+    .About-Header h1{
+        font-size: 120px;
+    }
 }
