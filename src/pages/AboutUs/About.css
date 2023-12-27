@@ -34,6 +34,123 @@
     color: white;
 }
 
+#image-overlap{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+#image-overlap img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#image-overlap img:last-of-type{
+    left: 30%;
+    top: 30%;
+}
+
+#image-overlap-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+#about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-content h1{
+    font-size: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    border-bottom: solid thin;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+#about-content p{
+    width: 80%;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+.about-mission h1{
+    font-size: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    border-bottom: solid thin;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.about-mission p{
+    width: 80%;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+.about-mission{
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #21A436;
+}
+
+.about-promise h1{
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+
+.about-promise p{
+    width: 80%;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+}
+
+.about-promise li{
+    width: 80%;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: black;
+    text-align: left;
+}
+
+.about-promise{
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
 @media all and (min-width: 330px){
     .About-Header h1{
         margin-top: 40px;
@@ -48,11 +165,79 @@
     .About-Header h1{
         font-size: 48px;
     }
+
+    #image-overlap img{
+        width: 210px;
+        height: 210px;
+    }
+
+    #image-overlap{
+        height: 300px;
+        width: 300px;
+    }
+
+    #about-content h1{
+        font-size: 40px;
+    }
+
+    #about-content p{
+        font-size: 20px;
+    }
+
+    .about-mission h1{
+        font-size: 40px;
+    }
+
+    .about-mission p{
+        font-size: 20px;
+    }
+
+    .about-promise h1{
+        font-size: 40px;
+    }
+
+    .about-promise p{
+        font-size: 20px;
+    }
+
+    .about-promise li{
+        font-size: 20px;
+    }
 }
 
 @media all and (min-width: 550px){
     .About-Header{
         height: 300px;
+    }
+}
+
+@media all and (min-width: 800px){
+    #about-content h1{
+        font-size: 48px;
+    }
+
+    #about-content p{
+        font-size: 24px;
+    }
+
+    .about-mission h1{
+        font-size: 48px;
+    }
+
+    .about-mission p{
+        font-size: 24px;
+    }
+
+    .about-promise h1{
+        font-size: 48px;
+    }
+
+    .about-promise p{
+        font-size: 24px;
+    }
+
+    .about-promise li{
+        font-size: 24px;
     }
 }
 
@@ -64,14 +249,93 @@
     .About-Header h1{
         font-size: 90px;
     }
+
+    .about-mission{
+        padding: 20px 200px;
+    }
+
+    .about-promise{
+        padding: 20px 200px;
+    }
+
+    #about-origin{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-@media all and (min-width: 1000px){
+@media all and (min-width: 1300px){
+    #about-origin{
+        margin: 40px 150px;
+    }
+
+    .about-mission{
+        padding: 60px 280px;
+    }
+
+    .about-promise{
+        padding: 60px 280px;
+    }
+}
+
+@media all and (min-width: 1500px){
     .About-Header{
         height: 550px;
     }
 
     .About-Header h1{
         font-size: 120px;
+    }
+
+    #about-content h1{
+        font-size: 55px;
+    }
+
+    #about-content p{
+        font-size: 26px;
+    }
+
+    #image-overlap img{
+        width: 250px;
+        height: 250px;
+    }
+
+    #image-overlap{
+        height: 360px;
+        width: 360px;
+    }
+
+    #about-origin{
+        margin: 60px 200px;
+    }
+
+    .about-mission h1{
+        font-size: 55px;
+    }
+
+    .about-mission p{
+        font-size: 26px;
+    }
+
+    .about-mission{
+        padding: 60px 450px;
+    }
+
+    .about-promise h1{
+        font-size: 55px;
+    }
+
+    .about-promise p{
+        font-size: 26px;
+    }
+
+    .about-promise li{
+        font-size: 26px;
+    }
+
+    .about-promise{
+        padding: 60px 450px;
     }
 }

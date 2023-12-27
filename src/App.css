@@ -12,6 +12,10 @@
     font-weight: bold;
 }
 
+.Italic{
+    font-style: italic;
+}
+
 .Footer{
     background-image: url("./assets/Images/FooterBackground.png");
     background-size: cover;
