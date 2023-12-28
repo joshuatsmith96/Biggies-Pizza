@@ -18,7 +18,7 @@ function Home() {
       <div className="FeaturedContainer">
       <Featured Img={Pinneapple} Header={"Pinneapple"} Text={"This controversial classic contains the basics; Pinneapple and pepperoni."}/>
       <Featured Img={Chickenbacon} Header={"Chicken Bacon Ranch"} Text={"Chicken bacon ranch contains... well... Chicken, Bacon and Ranch."}/>
-      <Featured Img={Spicy} Header={"Spicy"} Text={"The Jalapeno pizza will burn your taste buds with its combination of jalapenos, ghost peppers, and chili oil. Topped with pepperoni, sausage and black olives"}/>
+      <Featured Img={Spicy} Header={"Spicy"} Text={"The Jalapeno pizza will burn your taste buds with its combination of jalapenos, ghost peppers, and chili oil. Topped with pepperoni, sausage and black olives."}/>
       </div>
     </div>
   )

@@ -45,7 +45,7 @@ let pizzaData = {
             Name: "Spicy",
             Price: "$12.99",
             img: SpicyPizza,
-            Desc: "The Jalapeno pizza will burn your taste buds with its combination of jalapenos, ghost peppers, and chili oil. Topped with pepperoni, sausage and black olives"
+            Desc: "The Jalapeno pizza will burn your taste buds with its combination of jalapenos, ghost peppers, and chili oil. Topped with pepperoni, sausage and black olives."
         },
         {
             Name: "Pinneapple",
